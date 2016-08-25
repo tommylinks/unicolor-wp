@@ -1,0 +1,12 @@
+{
+  "name": "tommylinks",
+  "version": "2.0.1",
+  "description": "task",
+  "homepage": "",
+  "repository": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp.spritesmith": "^6.2.1"
+  }
+}
