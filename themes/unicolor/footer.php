@@ -2,6 +2,17 @@
         
     </div><!-- /.main-wrapper -->  
     <footer id="footer">
+    
+    <div class="partners-popup">
+         <ul>
+           <li>от 3000 грн   -5%</li>
+           <li>от 7000 грн   -10%</li>
+           <li>от 12000 грн   -15%</li>
+           <li>от 18000 грн   -20%</li>
+           <li>от 25000 грн   -25%</li>
+         </ul>
+       </div>
+    
     </footer>
     
     <!-- Modal contacts-->

@@ -16,6 +16,8 @@ get_header(); ?>
          <li><a href="#scrollNav-4" class=""><span></span></a></li>
          <li><a href="#scrollNav-5" class=""><span></span></a></li>
          <li><a href="#scrollNav-6" class=""><span></span></a></li>
+         <li><a href="#scrollNav-7" class=""><span></span></a></li>
+         <li><a href="#scrollNav-8" class=""><span></span></a></li>
        </ul>
      </nav>
     
@@ -60,7 +62,7 @@ get_header(); ?>
                          <li><a href="#">По бумаге</a></li>
                          <li><a href="#">По пенопласту</a></li>
                        </ul>
-                       <img class="paint-box-bottom" src="<?php echo get_template_directory_uri() ?>/images/paint-box-bottom.png">
+                       <img class="paint-box-bottom hidden-xs" src="<?php echo get_template_directory_uri() ?>/images/paint-box-bottom.png">
                       </div>
                     </div>
                     <div class="col-md-9 col-sm-8 col-xs-12">
@@ -76,6 +78,25 @@ get_header(); ?>
                               <div class="choose-paint-right">
                                 2000 грн
                               </div>
+                              
+                              
+                              <div class="paint-item-info xs-hidden">
+                                <div class="paint-item-title">
+                                  <h3>Интерьерная желтая <span class="paint-item-code">2328</span></h3>
+                                  <div class="paint-item-price">
+                                    <span class="paint-price">10000 грн/л</span>
+                                  </div>
+                                  
+                                  <p>Lorem ipsum dolor.</p>
+                                </div>
+                                <div class="paint-item-img">
+                                  <img src="http://unicolor-wp/wp-content/themes/unicolor/images/paint-box.png" alt="paint" class="paint-img img-responsive">
+                                </div>
+                                
+                                <span class="paint-triangle"></span>
+                              </div>
+                              
+                              
                             </div>
                           </div>
                           <div class="col-md-6 col-sm-6 col-xs-12">
@@ -89,6 +110,23 @@ get_header(); ?>
                                 2000 грн
                               </div>
                             </div>
+                            
+                            <div class="paint-item-info xs-hidden">
+                                <div class="paint-item-title">
+                                  <h3>Интерьерная желтая <span class="paint-item-code">2328</span></h3>
+                                  <div class="paint-item-price">
+                                    <span class="paint-price">10000 грн/л</span>
+                                  </div>
+                                  
+                                  <p>Lorem ipsum dolor.</p>
+                                </div>
+                                <div class="paint-item-img">
+                                  <img src="http://unicolor-wp/wp-content/themes/unicolor/images/paint-box.png" alt="paint" class="paint-img img-responsive">
+                                </div>
+                                
+                                <span class="paint-triangle"></span>
+                              </div>
+                            
                             </div>
                           </div>
                         </div>
@@ -102,6 +140,23 @@ get_header(); ?>
                               <div class="choose-paint-right">
                                 2000 грн
                               </div>
+                              
+                              <div class="paint-item-info xs-hidden">
+                                <div class="paint-item-title">
+                                  <h3>Интерьерная желтая <span class="paint-item-code">2328</span></h3>
+                                  <div class="paint-item-price">
+                                    <span class="paint-price">10000 грн/л</span>
+                                  </div>
+                                  
+                                  <p>Lorem ipsum dolor.</p>
+                                </div>
+                                <div class="paint-item-img">
+                                  <img src="http://unicolor-wp/wp-content/themes/unicolor/images/paint-box.png" alt="paint" class="paint-img img-responsive">
+                                </div>
+                                
+                                <span class="paint-triangle"></span>
+                              </div>
+                              
                             </div>
                           </div>
                           <div class="col-md-6 col-sm-6 col-xs-12">
@@ -211,13 +266,13 @@ get_header(); ?>
               <h3 class="section-title">Выберите нужное назначение</h3>
               <div class="appointment-wrap">
                 <div class="row">
-                  <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="col-md-6 col-sm-6 col-xs-12 text-right">
                     <figure>
                       <p><img src="<?php echo get_template_directory_uri() ?>/images/pic1.png" alt="Промышленные" /></p>
                       <figcaption>Промышленные</figcaption>
                     </figure>
                   </div>
-                  <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="col-md-6 col-sm-6 col-xs-12 text-left">
                     <figure>
                       <p><img src="<?php echo get_template_directory_uri() ?>/images/pic2.png" alt="Декоративные" /></p>
                       <figcaption>Декоративные</figcaption>
@@ -225,13 +280,13 @@ get_header(); ?>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="col-md-6 col-sm-6 col-xs-12 text-right">
                     <figure>
                       <p><img src="<?php echo get_template_directory_uri() ?>/images/pic3.png" alt="Промышленные" /></p>
                       <figcaption>Общехозяйственные</figcaption>
                     </figure>
                   </div>
-                  <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="col-md-6 col-sm-6 col-xs-12 text-left">
                     <figure>
                       <p><img src="<?php echo get_template_directory_uri() ?>/images/pic4.png" alt="Декоративные" /></p>
                       <figcaption>Строительные</figcaption>
@@ -519,6 +574,50 @@ get_header(); ?>
           </div>
         </div><!--END section6-->
         
+        <div class="about-bg" id="scrollNav-7">
+          <div class="container">
+            <div class="section-block about-block">
+              <h2>Мы рады приветствовать вас на сайте <br>компании «Юнипром»</h2>
+              
+              <p>
+• Мы хотим, чтобы наши клиенты навсегда забыли об отвратительном запахе растворителей и долго высыхающих красок. Новейшие краски на водной основе навсегда перевернут ваше представление о покраске, как сложном и неприятном процессе. Водные эмали и лаки уже заняли достойное место и на полках супермаркетов и в сердцах у жителей Европы. И мы сделаем все, чтобы и вы, полюбили эти материалы.</p>
+             
+             <p> • Наша компания занимается изготовлением и реализацией лакокрасочной продукции. Специалисты нашей компании готовы предложить вам всё новое и прогрессивное. Мы поддерживаем тесные контакты с ведущими производителями химической продукции из Европы и стараемся сделать так, чтобы передовые разработки западных технологов  стали доступными и на украинском рынке. Основной акцент мы делаем на экологичных водно-растворимых материалах.</p>
+              
+              <img class="about-bottle hidden-xs" src="<?php echo get_template_directory_uri() ?>/images/bottle-mix.png" alt="bottle">
+            </div>
+          </div>
+        </div><!--END section7-->
+        
+        <div class="certificate-bg" id="scrollNav-8">
+          <div class="container">
+            <div class="section-block certificate-block">
+              <h2>Качество</h2>
+              <h4>Наша продукция имеет отличное качество, <br>убедитесь в этом сами:</h4>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                  <figure>
+                    <p><img src="<?php echo get_template_directory_uri() ?>/images/certificate.png" alt="certificate" /></p>
+                    <figcaption>сертификат 1</figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                  <figure>
+                    <p><img src="<?php echo get_template_directory_uri() ?>/images/certificate.png" alt="certificate" /></p>
+                    <figcaption>сертификат 2</figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                  <figure>
+                    <p><img src="<?php echo get_template_directory_uri() ?>/images/certificate.png" alt="certificate" /></p>
+                    <figcaption>сертификат 3</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--END section8-->
+        
         
         <div class="inbasket-bg" id="scrollNav-7">
          <div class="container">
@@ -569,7 +668,7 @@ get_header(); ?>
               </div>
             </div>
           </div>
-        </div><!--END section7-->
+        </div><!--END section9-->
         <div class="callback-bg" id="section8">
           <div class="callback-wrap">
             <div class="modal-dialog  snt-modal-sm" role="document">
@@ -592,6 +691,7 @@ get_header(); ?>
                     <a class="btn snt-callback-btn">Задать вопрос</a>
                  
               </div>
+              <img class="callback-wave" src="<?php echo get_template_directory_uri() ?>/images/red-wave.png" alt="red-wave">
             </div>
           </div>
         </div><!--END section8-->
