@@ -18,6 +18,7 @@
     <!-- Modal contacts-->
     <!-- Modal -->
     <div class="modal fade" id="contactsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+     <span class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></span>
       <div class="modal-dialog snt-modal-sm" role="document">
         <div class="modal-content snt-modal-content">
          <div class="snt-contacts-modal">
@@ -51,9 +52,6 @@
 });
   </script>
   
-  <script>
-
-  </script>
 <script src="<?php echo get_template_directory_uri() ?>/js/main.js"></script>
 <?php wp_footer(); ?>
 </body>

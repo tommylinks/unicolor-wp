@@ -51,3 +51,9 @@ if ($(window).width() >= 768) {
 });
 
 //end scroll to id
+
+
+// close btn for modals
+$('.close-btn').click(function(){
+ $('#contactsModal').modal('hide');             
+});

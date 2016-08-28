@@ -14,10 +14,10 @@
                     <ul class="nav navbar-nav">
                       <li><a href="#" data-toggle="modal" data-target="#contactsModal">Контакты</a></li>
                       <li><a href="#scrollNav-1">Ассортимент</a></li>
-                      <li><a href="#">О нас</a></li>
+                      <li><a href="#scrollNav-7">О нас</a></li>
                       <li><a href="#scrollNav-6">Партнерам</a></li>
-                      <li><a href="#">Качество</a></li>
-                      <li><a href="#">Полезные советы</a></li>
+                      <li><a href="#scrollNav-8">Качество</a></li>
+                      <li><a href="#scrollNav-5">Полезные советы</a></li>
                       <li><a href="#scrollNav-3">Оплата и доставка</a></li>
                     </ul>   
                   </div><!-- /.navbar-collapse -->
