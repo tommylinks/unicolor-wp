@@ -1,3 +1,4 @@
+
 $font-light: GothamProLight, sans-serif;
 $font-regular: GothamProRegular, sans-serif;
 $font-bold: GothamProBold, sans-serif;
@@ -66,6 +67,15 @@ body{
 
 .modal-open {
    overflow: hidden!important; //  sorry bro
+}
+
+.close-btn{
+  position: absolute;
+  top: 20px;
+  right: 37px;
+  font-size: 50px;
+  cursor: pointer;
+  z-index: -1;
 }
 
 .add-inbasket{
@@ -899,10 +909,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
 .paint-item-info{
   display: none;
   position: absolute;
-  right: -337px;
+  right: -275px;
   top:-25px;
   width: 100%;
-  max-width: 337px;
+  max-width: 260px;
   height: auto;
   padding: 20px;
   color:#000;
