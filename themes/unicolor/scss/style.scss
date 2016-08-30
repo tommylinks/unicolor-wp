@@ -73,11 +73,11 @@ body{
 
 .close-btn{
   position: absolute;
-  top: 20px;
-  right: 37px;
-  font-size: 50px;
+  top: 17px;
+  right: 17px;
+  font-size: 28px;
   cursor: pointer;
-  z-index: -1;
+  
 }
 
 .add-inbasket{
@@ -111,6 +111,8 @@ body{
     background: #f56618;
     text-transform: uppercase;
 }
+
+.snt-disqus{padding: 30px 20px;}
 
 .navbar-default .navbar-toggle .icon-bar{    background-color: #fff;}
 
@@ -1015,6 +1017,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
   }
 }
 
+
+//footer
+
+.footer-wrap{
+  background: #593f58;
+  padding: 15px;
+  text-align: center;
+}
 
 //single page
 

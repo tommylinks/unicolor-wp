@@ -3,6 +3,12 @@
     </div><!-- /.main-wrapper -->  
     <footer id="footer">
     
+      
+      <div class="footer-wrap">SiteDesign made by <a rel="no
+      " href="https://www.facebook.com/misha.chepurnyak">MADgroup</a> and <a rel="no
+        " href="http://snt.net.ua">SNT</a>.</div>
+
+    
     <div class="partners-popup">
          <ul>
            <li>от 3000 грн   -5%</li>
@@ -18,10 +24,11 @@
     <!-- Modal contacts-->
     <!-- Modal -->
     <div class="modal fade" id="contactsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-     <span class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></span>
+     
       <div class="modal-dialog snt-modal-sm" role="document">
         <div class="modal-content snt-modal-content">
          <div class="snt-contacts-modal">
+          <span class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></span>
            <h3 class="section-title">Контакты</h3>
            <div class="phones-block-modal">
              <span>097 0759569</span>
