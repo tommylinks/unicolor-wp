@@ -14,7 +14,7 @@ get_header(); ?>
 
              <div class="single-top">
                <h1 class="single-title"><?php the_title() ?></h1>
-               <? include('menu.php'); ?>
+               <? include('menu-blog.php'); ?>
              </div>
               <div class="single-description">
                 <?php echo the_content();?>
