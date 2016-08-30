@@ -38,6 +38,8 @@ body{
   color:$font-main-color;
   text-transform: none;
   font: 29px/35px $font-bold, sans-serif;
+  
+  
 }
 
 
@@ -98,6 +100,16 @@ body{
   &:hover, &:focus {
     background-color: #ad37a9;
     }
+}
+
+.snt-back-home{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 40px;
+    color:$font-main-color;
+    font: 19px/25px $font-regular, sans-serif;
+    background: #f56618;
+    text-transform: uppercase;
 }
 
 .navbar-default .navbar-toggle .icon-bar{    background-color: #fff;}
@@ -498,6 +510,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
   .snt-order-btn{
     background-color: #5a4059;
     margin-top: 20px;
+    
+    &:hover{background-color: #795878; color: #fff;}
   }
   
   .delivery-b{
@@ -595,10 +609,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
     padding: 20px 30px;
     border-radius: 40px;
     color:$font-main-color;
-    text-transform: none;
     font: 19px/25px $font-regular, sans-serif;
     background: #f56618;
     text-transform: uppercase;
+    
+    &:hover{background: #e05f18;}
   }
   
   .delivery-bottle{
@@ -667,6 +682,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
     text-transform: uppercase;
     color:#5a4059;
     box-shadow: 0 32px 85px 15px rgba(82, 56, 81, 0.48);
+    
+    &:hover{background: #3fc194;}
   }
 }
 
@@ -1015,6 +1032,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
     min-height: 70vh;
     padding: 0px;
     min-height: 80vh;
+    padding-bottom: 30px;
     
     .single-top{
       background: url(../images/single-head-bg.jpg) no-repeat  top center #fff;
