@@ -20,6 +20,9 @@ get_header(); ?>
                 <?php echo the_content();?>
               </div>
               <?php endwhile; ?>
+              <div class="text-center">
+                <a href="/" class="btn snt-back-home">На главную</a>
+              </div>
             </div>
           </div>
         </div>   
