@@ -27,12 +27,14 @@ get_header(); ?>
             <div class="section-block header-block">
               <div class="phone-block">
                 <a class="phone-block-number" href="tel:+380970759569">+380970759569</a>
+<!--
                  <div class="language">
                    <ul>
                     <li><a href="#">En</a></li>
                      <li><a class="active" href="#">Рус</a></li>
                    </ul>
                  </div>
+-->
               </div>
 <? include('menu.php'); ?>
               <div class="header-description">
@@ -619,6 +621,7 @@ get_header(); ?>
         </div><!--END section8-->
         
         
+<!--
         <div class="inbasket-bg" id="scrollNav-7">
          <div class="container">
           <div class="inbasket-block">
@@ -668,7 +671,9 @@ get_header(); ?>
               </div>
             </div>
           </div>
-        </div><!--END section9-->
+        </div>
+-->
+<!--
         <div class="callback-bg" id="section8">
           <div class="callback-wrap">
             <div class="modal-dialog  snt-modal-sm" role="document">
@@ -694,7 +699,8 @@ get_header(); ?>
               <img class="callback-wave" src="<?php echo get_template_directory_uri() ?>/images/red-wave.png" alt="red-wave">
             </div>
           </div>
-        </div><!--END section8-->
+        </div>
+-->
         
        <?php
 
