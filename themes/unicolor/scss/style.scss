@@ -1026,7 +1026,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
       }
       
       nav{
-        a:hover{color: red;}
+        a:hover,a:focus{color: red;}
         
          .navbar-collapse.in{
           background: url(../images/single-head-bg.jpg) no-repeat;
