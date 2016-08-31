@@ -509,7 +509,7 @@ get_header(); ?>
                    <article class="blog-article">
                      <a href="<?php the_permalink(); ?>">
                         <figure>
-                          <p><?php echo the_post_thumbnail('thumbnail'); ?></p>
+                          <p><?php echo the_post_thumbnail('medium', 'class=img-responsive'); ?></p>
                           <figcaption><?php echo the_title() ?></figcaption>
                         </figure>
                       </a>
