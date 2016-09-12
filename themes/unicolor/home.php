@@ -43,9 +43,10 @@ get_header(); ?>
                 <h1>Unicolor</h1>
                 <a class="btn snt-order-btn">Заказать</a>
               </div>
+              <img class="header-wave-img" src="<?php echo get_template_directory_uri() ?>/images/wave.png">
             </div>
           </div>
-          <img class="header-wave-img" src="<?php echo get_template_directory_uri() ?>/images/wave.png">
+          
         </div><!--END section0-->
         
         <div class="choose-bg" id="scrollNav-1">
@@ -317,32 +318,36 @@ get_header(); ?>
         
         <div class="delivery-bg" id="scrollNav-3">
           <div class="container">
-            <div class="section-block delivery-block">
-              <h3 class="section-title">Доставка</h3>
-              <div class="row">
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                  <figure>
-                    <p><img src="<?php echo get_template_directory_uri() ?>/images/car.png" alt="Самовывоз" /></p>
-                    <figcaption>Самовывоз</figcaption>
-                  </figure>
+            <div class="relative">
+              <div class="section-block delivery-block">
+                <h3 class="section-title">Доставка</h3>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                    <figure>
+                      <p><img src="<?php echo get_template_directory_uri() ?>/images/car.png" alt="Самовывоз" /></p>
+                      <figcaption>Самовывоз</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                    <figure>
+                      <p><img src="<?php echo get_template_directory_uri() ?>/images/np.png" alt="Новая почта" /></p>
+                      <figcaption>Новая почта</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                    <figure>
+                      <p><img src="<?php echo get_template_directory_uri() ?>/images/box.png" alt="Курьерская доставка" /></p>
+                      <figcaption>Курьерская доставка</figcaption>
+                    </figure>
+                  </div>
                 </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                  <figure>
-                    <p><img src="<?php echo get_template_directory_uri() ?>/images/np.png" alt="Новая почта" /></p>
-                    <figcaption>Новая почта</figcaption>
-                  </figure>
+                <div class="text-center">
+                  <a class="btn snt-order-btn">Заказать</a>
                 </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                  <figure>
-                    <p><img src="<?php echo get_template_directory_uri() ?>/images/box.png" alt="Курьерская доставка" /></p>
-                    <figcaption>Курьерская доставка</figcaption>
-                  </figure>
-                </div>
+                <img class="delivery-b hidden-xs" src="<?php echo get_template_directory_uri() ?>/images/bottle2.png" alt="bottle">
+                
               </div>
-              <div class="text-center">
-                <a class="btn snt-order-btn">Заказать</a>
-              </div>
-              <img class="delivery-b hidden-xs" src="<?php echo get_template_directory_uri() ?>/images/bottle2.png" alt="bottle">
+              <img class="delivery-paint hidden-xs" src="<?php echo get_template_directory_uri() ?>/images/delivery-bg.png" alt="bottle">
             </div>
           </div>
         </div><!--END section3-->
@@ -618,6 +623,24 @@ get_header(); ?>
                   </figure>
                 </div>
               </div>
+            </div>
+          </div>
+        </div><!--END section8-->
+        
+        
+        
+        
+        
+
+        
+        <div class="certificate-bg" id="scrollNav-8">
+          <div class="container">
+            <div id="woocommerce" class="section-block certificate-block">
+
+              
+              <?php woocommerce_content(); ?>
+             
+              
             </div>
           </div>
         </div><!--END section8-->

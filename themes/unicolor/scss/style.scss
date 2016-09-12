@@ -30,7 +30,7 @@ body{
 .right{float: right;}
 .left{float: left;}
 .overflow{overflow: hidden;}
-
+.relative{position: relative;}
 
 
 .snt-order-btn{
@@ -49,8 +49,9 @@ body{
   
   .header-wave-img{
     position: absolute;
-    bottom: 0;
-    width: 30%;
+    bottom: -60px;
+    left: -300px;
+    width: 50%;
   }  
 }
 
@@ -305,6 +306,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
     h3{
       margin: 0;
       font-size: 25px;
+      letter-spacing: 4px;
+      line-height: 1.2;
       
       span{font-weight: bold;}
     }
@@ -312,6 +315,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
     h1{
       font-size: 95px;
       font-weight: bold;
+      letter-spacing: 4px;
     }
     
     .snt-order-btn{
@@ -378,12 +382,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
       
       li{
         list-style-type: none;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #bd8cc1;
         
         a{
           position: relative;
           display: block;
-          padding: 15px 0;
+          padding: 18px 0;
           text-transform: uppercase;
           color: #fff;
           text-decoration: none;
@@ -458,7 +462,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
     padding: 25px;
     min-width: 280px;
     margin: 20px;
-    background: rgba(255, 187, 72, 0.5);
+    background: rgba(255, 187, 72, 1);
     border-radius: 30px;
     cursor: pointer;
     
@@ -487,8 +491,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
 
 // delivery
 .delivery-bg{
-     background: url(../images/delivery-bg.png) no-repeat bottom left #ffa52f;
+     background-color: #ffa52f;
+      overflow: hidden;
 }
+
+.delivery-paint{
+    position: absolute;
+    left: -100px;
+    bottom: -60px;
+  }
 
 .delivery-block{
   background-image: linear-gradient(-74deg, #ff9100 0%, #ffa938 100%);
@@ -498,6 +509,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
   color: #fff;
   font-size: 19px;
   overflow: hidden;
+  z-index: 1;
   
   figure {
     margin-top: 20px;
@@ -929,7 +941,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
 .paint-item-info{
   display: none;
   position: absolute;
-  right: -275px;
+  right: -258px;
   top:-25px;
   width: 100%;
   max-width: 260px;
@@ -945,12 +957,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
   
   .paint-triangle{
     position: absolute;
-    left: -30px;
-    top: 40px;
+    left: -14px;
+    top: 45px;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 25px 30px 25px 0;
+    border-width: 17px 16px 17px 0;
     border-color: transparent #ffffff transparent transparent;
     
   }
@@ -1117,6 +1129,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
   .appointment-block{
     figure{
       display: block;
+    }
+  }
+}
+
+@media (min-width: 1400px){
+  .header-block {
+    .header-description {
+      margin-top: 15vh;
     }
   }
 }
