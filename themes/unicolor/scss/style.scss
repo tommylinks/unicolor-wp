@@ -361,10 +361,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
 }
 
 .choose-block{
-  background: #6d436c;
-    -webkit-box-shadow: 0px 0px 93px -5px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 93px -5px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 93px -5px rgba(0, 0, 0, 0.75);
+  background: #632961;
+  -webkit-box-shadow: 0px 0px 93px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 93px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 93px -5px rgba(0, 0, 0, 0.75);
   color: #fff;
   font-size: 19px;
   padding: 0;
@@ -420,7 +420,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
   }
   
   .choose-items{
-      margin: 20px 30px 0 0;  
+    margin: 0;
+    padding: 20px;
+    background-color: #6d436c;
+    min-height: 650px;
+    border-radius: 0px 60px 60px 0px;
+    
+    .section-title{
+      margin: 0px;
+      padding-bottom: 20px;
+    }
   }
   
   .choose-add-inbasket{
@@ -1099,6 +1108,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
   }
 }
 
+@media only screen and (min-width : 768px) and (max-width : 1200px){
+
+  .choose-block .choose-menu ul li a{
+    padding: 15px 0;
+  }
+  
+  .navbar-default .navbar-nav > li > a{
+    font: 13px/18px GothamProLight, sans-serif, sans-serif;
+    padding: 15px 9px;
+  }
+  
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px){
+  
+  .choose-items-paint {font-size: 10px;}
+  
+  .navbar-default .navbar-nav > li > a{
+        font: 10px/18px GothamProLight, sans-serif, sans-serif;
+    padding: 15px 6px;
+  }
+}
 
 @media (max-width: 768px) {
   .choose-block {
@@ -1106,7 +1137,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca833', end
       border-radius: 60px 60px 0 0;
       min-height: 530px;
     }
-    .choose-items{margin:25px;}
+    .choose-items{
+      border-radius: 0 0 60px 60px ;
+    }
     
     .choose-add-inbasket{
       right: 0;

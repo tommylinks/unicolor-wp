@@ -7,7 +7,7 @@
 
 get_header(); ?>
    
-   <nav id="nav" class="snt-page-nav">
+   <nav id="nav" class="snt-page-nav hidden-xs">
        <ul>
          <li><a href="#scrollNav-0" class=""><span></span></a></li>
          <li><a href="#scrollNav-1" class=""><span></span></a></li>
@@ -69,8 +69,8 @@ get_header(); ?>
                       </div>
                     </div>
                     <div class="col-md-9 col-sm-8 col-xs-12">
-                     <h3 class="section-title">Выберите подходящую позицию</h3>
                       <div class="choose-items">
+                       <h3 class="section-title">Выберите подходящую позицию</h3>
                         <div class="row">
                           <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="choose-items-paint clearfix">
@@ -311,7 +311,7 @@ get_header(); ?>
              
              <p> • Наша компания занимается изготовлением и реализацией лакокрасочной продукции. Специалисты нашей компании готовы предложить вам всё новое и прогрессивное. Мы поддерживаем тесные контакты с ведущими производителями химической продукции из Европы и стараемся сделать так, чтобы передовые разработки западных технологов  стали доступными и на украинском рынке. Основной акцент мы делаем на экологичных водно-растворимых материалах.</p>
               
-              <img class="about-bottle hidden-xs" src="<?php echo get_template_directory_uri() ?>/images/bottle-mix.png" alt="bottle">
+              <img class="about-bottle hidden-sm hidden-xs" src="<?php echo get_template_directory_uri() ?>/images/bottle-mix.png" alt="bottle">
             </div>
           </div>
         </div><!--END section7-->
@@ -638,7 +638,7 @@ get_header(); ?>
             <div id="woocommerce" class="section-block certificate-block">
 
               
-              <?php woocommerce_content(); ?>
+
              
               
             </div>
